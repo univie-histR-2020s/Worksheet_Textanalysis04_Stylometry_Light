@@ -1,0 +1,8 @@
+﻿Anonymous_Almayer_1895.txt		Conrad_Almayer_1895.txt
+Anonymous_Bleak_1853.txt		Dickens_Bleak_1853.txt
+Anonymous_Farm_1883.txt			Schreiner_Farm_1883.txt
+Anonymous_Jane_1847.txt			Cbronte_Jane_1847.txt
+Anonymous_Kenelm_1873.txt		Lytton_Kenelm_1873.txt
+Anonymous_Rosary_1909.txt		Barclay_Rosary_1909.txt
+Anonymous_Springhaven_1887.txt	Blackmore_Springhaven_1887.txt
+Anonymous_Years_1937.txt		Woolf_Years_1937.txt

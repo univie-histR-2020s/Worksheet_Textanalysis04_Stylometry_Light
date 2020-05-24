@@ -1,0 +1,53 @@
+#install.packages("stylo")
+library(stylo)
+
+library(rstudioapi) # make sure you have it installed
+current_path <- getActiveDocumentContext()$path 
+setwd(dirname(current_path))
+print(getwd())
+
+# calls the interface
+#classify()
+
+# runs everything silently
+
+classify(
+  gui=FALSE,
+  corpus.format="plain",
+  corpus.lang="English.all",
+  analyzed.features="w",
+  ngram.size=1,
+  mfw.min=100,
+  mfw.max=500,
+  mfw.incr=100,
+  start.at=1,
+  culling.min=0,
+  culling.max=50,
+  culling.incr=10,
+  mfw.list.cutoff=5000,
+  delete.pronouns=FALSE,
+  preserve.case=FALSE,
+  encoding="native.enc",
+  use.existing.freq.tables=FALSE,
+  use.existing.wordlist=FALSE,
+  classification.method="delta",
+  culling.of.all.samples=TRUE,
+  z.scores.of.all.samples=FALSE,
+  reference.wordlist.of.all.samples=FALSE,
+  distance.measure="delta",
+  svm.kernel="linear",
+  svm.degree=3,
+  svm.coef0=0,
+  svm.cost=1,
+  k.value=1,
+  l.value=0,
+  sampling="no.sampling",
+  sample.size=10000,
+  number.of.samples=1,
+  final.ranking.of.candidates=TRUE,
+  how.many.correct.attributions=TRUE,
+  number.of.candidates=3,
+  save.distance.tables=FALSE,
+  save.analyzed.features=FALSE,
+  save.analyzed.freqs=FALSE
+)
